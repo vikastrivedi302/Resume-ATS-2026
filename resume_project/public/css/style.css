@@ -1,0 +1,50 @@
+.st-font{
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+html,body{
+  height: 100%;
+}
+
+.container-fluid{
+  min-height: 100%;
+}
+
+/* Service Icon Color  */
+.ss-color{
+  color: silver;
+}
+
+.i-color{
+  color: chartreuse;
+}
+a.nav-link{
+  color: whitesmoke;
+}
+a.nav-link:hover{
+  color: black;
+  background-color: #ffc107;
+  font-weight: bold;
+}
+
+.i-color:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+.nav-link {
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffc107; /* yellow hover */
+}
+
+.active-link {
+  color: #ffc107 !important; /* stay yellow */
+  font-weight: bold;
+  border-left: 3px solid #ffc107;
+}
