@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "type": "module",
-  "description": "",
+"description": "ATS Friendly Resume Portfolio built with Express and EJS",
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "ejs": "^3.1.10",
