@@ -1,0 +1,93 @@
+<%- include('./partials/header.ejs') %>
+<div class="container-fluid bg-dark text-white min-vh-100">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-sm-2">
+      <%- include('./partials/sidebar.ejs') %>
+    </div>
+
+    <!-- Main Content -->
+    <div class="col-sm-10 py-5">
+      <div class="container">
+        <h1 class="text-warning mb-5 border-bottom">PROJECTS</h1>
+
+        <!-- 🌟 Registration Project -->
+        <div class="card bg-secondary mb-4 shadow-lg border-0 rounded-3">
+          <div class="card-body">
+            <h2 class="text-warning">User Registration & Login System</h2>
+            <p class="mt-3">
+              Built a full-stack <strong>Registration and Login System</strong> using <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>EJS</strong>, and <strong>MongoDB</strong>.
+            </p>
+            <ul>
+              <li>Implemented secure <strong>user authentication</strong> using <strong>bcrypt</strong> and <strong>Express Sessions</strong>.</li>
+              <li>Integrated <strong>Mongoose</strong> for database modeling and CRUD operations.</li>
+              <li>Designed responsive UI with <strong>Bootstrap</strong> and EJS partials for reusable layout.</li>
+              <li>Deployed on <strong>Render</strong> for live access.</li>
+            </ul>
+            <div class="mt-3">
+              <a href="https://github.com/vikastrivedi302" target="_blank" class="btn btn-outline-light btn-sm">
+                <i class="bi bi-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 🌟 Portfolio Website -->
+        <div class="card bg-secondary mb-4 shadow-lg border-0 rounded-3">
+          <div class="card-body">
+            <h2 class="text-warning">Portfolio Website</h2>
+            <p class="mt-3">
+              Developed a responsive personal portfolio using <strong>React.js</strong>, <strong>Tailwind CSS</strong>, and <strong>JavaScript (ES6+)</strong>.
+            </p>
+            <ul>
+              <li>Implemented mobile-first and SEO-friendly design ensuring fast loading and full device compatibility.</li>
+              <li>Achieved a <strong>95% Lighthouse performance score</strong> for accessibility and speed optimization.</li>
+              <li>Integrated <strong>GitHub Pages / Netlify</strong> for continuous deployment and smooth updates.</li>
+            </ul>
+            <div class="mt-3">
+              <a href="https://github.com/vikastrivedi302" target="_blank" class="btn btn-outline-light btn-sm">
+                <i class="bi bi-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 🚀 Clone Project -->
+        <div class="card bg-secondary mb-4 shadow-lg border-0 rounded-3">
+          <div class="card-body">
+            <h2 class="text-warning">Clone Project (Swiggy & YouTube Clone)</h2>
+            <p class="mt-3">
+              Recreated modern UI and interactive features of <strong>Swiggy</strong> and <strong>YouTube</strong> using <strong>React.js</strong>, <strong>CSS3</strong>, and <strong>API integration</strong>.
+            </p>
+            <ul>
+              <li>Implemented <strong>routing</strong>, dummy <strong>authentication flow</strong>, and <strong>responsive layouts</strong>.</li>
+              <li>Focused on <strong>performance optimization</strong>, <strong>state management</strong>, and <strong>UX improvements</strong>.</li>
+              <li>Used reusable components and modular structure for maintainability.</li>
+            </ul>
+            <div class="mt-3">
+              <a href="https://github.com/vikastrivedi302" target="_blank" class="btn btn-outline-light btn-sm">
+                <i class="bi bi-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 💡 Practice / DSA Projects -->
+        <div class="card bg-secondary mb-4 shadow-lg border-0 rounded-3">
+          <div class="card-body">
+            <h2 class="text-warning">Java & DSA Practice (Self-Learning)</h2>
+            <p class="mt-3">
+              Practiced <strong>Data Structures and Algorithms</strong> and built small utility projects in <strong>Java</strong> to strengthen logic and problem-solving ability.
+            </p>
+            <ul>
+              <li>Applied OOP principles and algorithms for hands-on problem solving.</li>
+              <li>Improved time complexity understanding through multiple coding challenges.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<%- include('./partials/footer.ejs') %>
